@@ -7,8 +7,8 @@ month, day, year = date.split()
 month = int(month)
 day = int(day)
 year = int(year)
-d = datetime.date(year, month, day)
-print(d)
+full_date = datetime.date(year,month,day)
+print(full_date)
 
 day_of_week = calendar.weekday(year, month, day)
 day_name = calendar.day_name[day_of_week]
